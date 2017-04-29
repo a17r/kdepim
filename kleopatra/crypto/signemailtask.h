@@ -37,7 +37,7 @@
 
 #include <utils/pimpl_ptr.h>
 
-#include <gpgme++/global.h>
+#include <kde4_gpgme++/global.h>
 
 #ifndef Q_MOC_RUN
 #include <boost/shared_ptr.hpp>

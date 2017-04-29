@@ -35,7 +35,7 @@
 
 #include <utils/pimpl_ptr.h>
 
-#include <gpgme++/global.h>
+#include <kde4_gpgme++/global.h>
 
 
 #include <QWizard>

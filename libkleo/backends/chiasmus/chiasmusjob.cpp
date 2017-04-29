@@ -36,7 +36,7 @@
 
 #include "kleo/cryptoconfig.h"
 
-#include <gpgme++/error.h>
+#include <kde4_gpgme++/error.h>
 
 #include <kshell.h>
 #include <klocale.h>

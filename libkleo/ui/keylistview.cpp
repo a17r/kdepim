@@ -43,7 +43,7 @@
 #include <QFont>
 #include <QColor>
 #include <QTimer>
-#include <gpgme++/key.h>
+#include <kde4_gpgme++/key.h>
 
 #include <vector>
 #include <map>

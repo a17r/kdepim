@@ -37,7 +37,7 @@
 
 #include <string>
 
-#include <gpgme++/key.h>
+#include <kde4_gpgme++/key.h>
 
 #ifndef Q_MOC_RUN
 #include <boost/bind.hpp>

@@ -38,8 +38,8 @@
 
 #include <QFile>
 
-#include <gpgme++/global.h>
-#include <gpgme++/error.h>
+#include <kde4_gpgme++/global.h>
+#include <kde4_gpgme++/error.h>
 
 #ifndef Q_MOC_RUN
 #include <boost/foreach.hpp>

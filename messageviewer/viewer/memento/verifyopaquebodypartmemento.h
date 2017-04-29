@@ -19,9 +19,9 @@
 #define VERIFYOPAQUEBODYPARTMEMENTO_H
 
 #include "cryptobodypartmemento.h"
-#include <gpgme++/verificationresult.h>
-#include <gpgme++/decryptionresult.h>
-#include <gpgme++/key.h>
+#include <kde4_gpgme++/verificationresult.h>
+#include <kde4_gpgme++/decryptionresult.h>
+#include <kde4_gpgme++/key.h>
 
 #include <QObject>
 #include <QString>

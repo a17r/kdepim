@@ -22,7 +22,7 @@
 #ifndef QTEST_MESSAGECOMPOSER_H
 #define QTEST_MESSAGECOMPOSER_H
 
-#include <gpgme++/key.h>
+#include <kde4_gpgme++/key.h>
 
 /**
  * Runs a MessageComposer::JobBase synchronously and aborts if the job failed.

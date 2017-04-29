@@ -27,10 +27,10 @@
 #include <kaddressbookgrantlee/widget/grantleecontactviewer.h>
 
 #ifdef QGPGME_FOUND
-#include <gpgme++/context.h>
-#include <gpgme++/data.h>
-#include <gpgme++/key.h>
-#include <qgpgme/dataprovider.h>
+#include <kde4_gpgme++/context.h>
+#include <kde4_gpgme++/data.h>
+#include <kde4_gpgme++/key.h>
+#include <kde4_qgpgme/dataprovider.h>
 #endif // QGPGME_FOUND
 
 #include <KABC/VCardConverter>

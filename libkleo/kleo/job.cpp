@@ -56,7 +56,7 @@
 #include "adduseridjob.h"
 #include "specialjob.h"
 
-#include <gpgme++/error.h>
+#include <kde4_gpgme++/error.h>
 
 #include <QCoreApplication>
 #include <kdebug.h>

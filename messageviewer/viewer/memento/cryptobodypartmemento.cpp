@@ -23,7 +23,7 @@
 #include <kleo/verifyopaquejob.h>
 #include <kleo/keylistjob.h>
 
-#include <gpgme++/keylistresult.h>
+#include <kde4_gpgme++/keylistresult.h>
 
 using namespace Kleo;
 using namespace GpgME;

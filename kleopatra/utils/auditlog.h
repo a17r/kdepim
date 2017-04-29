@@ -34,7 +34,7 @@
 #define __KLEOPATRA_UTILS_AUDITLOG_H__
 
 #include <QString>
-#include <gpgme++/error.h>
+#include <kde4_gpgme++/error.h>
 #include <gpg-error.h>
 
 class KUrl;

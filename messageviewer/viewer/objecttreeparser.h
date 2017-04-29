@@ -40,7 +40,7 @@
 #include "objecttreesourceif.h"
 
 #include <libkleo/kleo/cryptobackend.h>
-#include <gpgme++/verificationresult.h>
+#include <kde4_gpgme++/verificationresult.h>
 
 #include <QList>
 #include "objecttreeemptysource.h"

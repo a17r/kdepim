@@ -21,7 +21,7 @@
 #ifndef MESSAGECORE_TESTS_UTIL_H
 #define MESSAGECORE_TESTS_UTIL_H
 
-#include <gpgme++/key.h>
+#include <kde4_gpgme++/key.h>
 #include <messageviewer/viewer/objecttreeemptysource.h>
 
 namespace MessageCore {

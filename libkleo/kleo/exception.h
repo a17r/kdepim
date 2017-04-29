@@ -36,7 +36,7 @@
 #include "kleo/kleo_export.h"
 
 #include <gpg-error.h>
-#include <gpgme++/exception.h>
+#include <kde4_gpgme++/exception.h>
 
 #include <QString>
 

@@ -42,7 +42,7 @@
 
 #include <kmime/kmime_header_parsing.h>
 
-#include <gpgme++/key.h>
+#include <kde4_gpgme++/key.h>
 
 using namespace Kleo;
 using namespace Kleo::Crypto;

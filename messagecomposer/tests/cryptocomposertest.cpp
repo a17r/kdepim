@@ -56,7 +56,7 @@ using namespace MessageComposer;
 #endif
 using MessageCore::AttachmentPart;
 
-#include <gpgme++/key.h>
+#include <kde4_gpgme++/key.h>
 
 Q_DECLARE_METATYPE(MessageCore::AttachmentPart)
 

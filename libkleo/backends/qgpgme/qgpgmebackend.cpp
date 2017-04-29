@@ -58,8 +58,8 @@
 #include "qgpgmechangepasswdjob.h"
 #include "qgpgmeadduseridjob.h"
 
-#include <gpgme++/error.h>
-#include <gpgme++/engineinfo.h>
+#include <kde4_gpgme++/error.h>
+#include <kde4_gpgme++/engineinfo.h>
 
 #include <klocale.h>
 #include <kstandarddirs.h>

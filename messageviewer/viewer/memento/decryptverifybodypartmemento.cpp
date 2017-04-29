@@ -20,7 +20,7 @@
 #include <kdebug.h>
 #include <kleo/decryptverifyjob.h>
 
-#include <gpgme++/keylistresult.h>
+#include <kde4_gpgme++/keylistresult.h>
 
 #include <qstringlist.h>
 

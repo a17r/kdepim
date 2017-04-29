@@ -50,7 +50,7 @@
 
 #include <kmime/kmime_header_parsing.h>
 
-#include <gpgme++/key.h>
+#include <kde4_gpgme++/key.h>
 
 #include <KDialog>
 #include <KLocalizedString>

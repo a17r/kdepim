@@ -40,7 +40,7 @@
 #include <utils/gnupg-helper.h>
 #include <utils/auditlog.h>
 
-#include <gpgme++/exception.h>
+#include <kde4_gpgme++/exception.h>
 
 #include <gpg-error.h>
 

@@ -39,7 +39,7 @@
 
 #include <KDebug>
 
-#include <gpgme++/keylistresult.h>
+#include <kde4_gpgme++/keylistresult.h>
 
 #ifndef Q_MOC_RUN
 #include <boost/bind.hpp>

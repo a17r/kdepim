@@ -20,7 +20,7 @@
 #include "utils/util.h"
 #include "settings/globalsettings.h"
 #include "utils/autoqpointer.h"
-#include <gpgme++/error.h>
+#include <kde4_gpgme++/error.h>
 
 #include <kio/jobuidelegate.h>
 #include <KIO/Job>

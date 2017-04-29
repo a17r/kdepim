@@ -47,7 +47,7 @@
 #include <kleo/multideletejob.h>
 #include <kleo/deletejob.h>
 
-#include <gpgme++/key.h>
+#include <kde4_gpgme++/key.h>
 
 #include <KLocalizedString>
 

@@ -71,7 +71,7 @@
 
 #include <QPointer>
 
-#include <gpgme++/key.h>
+#include <kde4_gpgme++/key.h>
 
 #ifndef Q_MOC_RUN
 #include <boost/shared_ptr.hpp>

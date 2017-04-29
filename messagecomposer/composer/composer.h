@@ -32,7 +32,7 @@
 #include <messagecore/attachment/attachmentpart.h>
 
 #include <vector>
-#include <gpgme++/key.h>
+#include <kde4_gpgme++/key.h>
 
 namespace boost {
 template <typename T> class shared_ptr;

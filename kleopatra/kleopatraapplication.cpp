@@ -45,7 +45,7 @@
 #include <utils/log.h>
 #include <utils/getpid.h>
 
-#include <gpgme++/key.h>
+#include <kde4_gpgme++/key.h>
 #include <models/keycache.h>
 
 #ifdef HAVE_USABLE_ASSUAN

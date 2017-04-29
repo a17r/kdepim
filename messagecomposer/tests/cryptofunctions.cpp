@@ -41,7 +41,7 @@
 #include <QtTest>
 
 #include <stdlib.h>
-#include <gpgme++/keylistresult.h>
+#include <kde4_gpgme++/keylistresult.h>
 #include <messagecore/tests/util.h>
 
 void ComposerTestUtil::verify( bool sign, bool encrypt, KMime::Content* content, QByteArray origContent, Kleo::CryptoMessageFormat f, KMime::Headers::contentEncoding encoding ) {

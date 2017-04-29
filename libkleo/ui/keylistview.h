@@ -35,7 +35,7 @@
 
 #include "kleo/kleo_export.h"
 
-#include <gpgme++/key.h>
+#include <kde4_gpgme++/key.h>
 
 #include <QtCore/QByteArray>
 #include <QTreeWidget>

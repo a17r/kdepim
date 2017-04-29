@@ -37,7 +37,7 @@
 #include <QStringList>
 #include <QMetaType>
 
-#include <gpgme++/global.h> // GpgME::Protocol
+#include <kde4_gpgme++/global.h> // GpgME::Protocol
 
 #include <vector>
 

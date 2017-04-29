@@ -36,7 +36,7 @@
 
 #include "utils/hex.h"
 
-#include <gpgme++/engineinfo.h>
+#include <kde4_gpgme++/engineinfo.h>
 
 #include <KDebug>
 #include <KStandardDirs>

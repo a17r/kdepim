@@ -51,7 +51,7 @@
 #include <QHash>
 #include <QIcon>
 #include <QDate>
-#include <gpgme++/key.h>
+#include <kde4_gpgme++/key.h>
 
 
 #ifndef Q_MOC_RUN // QTBUG-22829

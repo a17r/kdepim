@@ -33,9 +33,9 @@
 #include <kmime/kmime_util.h>
 #include <QBuffer>
 
-#include <gpgme++/global.h>
-#include <gpgme++/signingresult.h>
-#include <gpgme++/encryptionresult.h>
+#include <kde4_gpgme++/global.h>
+#include <kde4_gpgme++/signingresult.h>
+#include <kde4_gpgme++/encryptionresult.h>
 #include <sstream>
 
 using namespace MessageComposer;

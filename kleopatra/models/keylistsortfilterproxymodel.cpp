@@ -38,7 +38,7 @@
 
 #include <kleo/keyfilter.h>
 
-#include <gpgme++/key.h>
+#include <kde4_gpgme++/key.h>
 
 #include <kleo/stl_util.h>
 

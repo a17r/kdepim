@@ -28,7 +28,7 @@
 #include "messagecomposer_export.h"
 #include "kleo/enum.h"
 
-#include <gpgme++/key.h>
+#include <kde4_gpgme++/key.h>
 #include <vector>
 
 namespace KMime {

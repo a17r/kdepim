@@ -54,7 +54,7 @@
 #include <QVBoxLayout>
 #include <QGridLayout>
 
-#include <gpgme++/key.h>
+#include <kde4_gpgme++/key.h>
 
 #include <assert.h>
 

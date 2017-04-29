@@ -33,7 +33,7 @@
 #ifndef __KLEOPATRA_CRYPTO_RECIPIENT_H__
 #define __KLEOPATRA_CRYPTO_RECIPIENT_H__
 
-#include <gpgme++/global.h>
+#include <kde4_gpgme++/global.h>
 
 #ifndef Q_MOC_RUN
 #include <boost/shared_ptr.hpp>

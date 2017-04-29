@@ -42,7 +42,7 @@
 #include <QVariant>
 #include <QPointer>
 
-#include <gpgme++/configuration.h>
+#include <kde4_gpgme++/configuration.h>
 
 #ifndef Q_MOC_RUN
 #include <boost/shared_ptr.hpp>

@@ -44,8 +44,8 @@
 #include <kleo/cryptobackend.h>
 #include <kleo/signjob.h>
 
-#include <gpgme++/signingresult.h>
-#include <gpgme++/key.h>
+#include <kde4_gpgme++/signingresult.h>
+#include <kde4_gpgme++/key.h>
 
 #include <KLocalizedString>
 

@@ -47,7 +47,7 @@
 
 #include <kleo/stl_util.h>
 
-#include <gpgme++/key.h>
+#include <kde4_gpgme++/key.h>
 
 #include <KConfig>
 #include <KGlobal>

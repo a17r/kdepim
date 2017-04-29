@@ -45,7 +45,7 @@
 #include <kleo/cryptobackendfactory.h>
 #include <kleo/exportjob.h>
 
-#include <gpgme++/key.h>
+#include <kde4_gpgme++/key.h>
 
 #include <KLocalizedString>
 #include <KSaveFile>

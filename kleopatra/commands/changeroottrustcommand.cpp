@@ -54,7 +54,7 @@
 #include <QDir>
 #include <QProcess>
 
-#include <gpgme++/key.h>
+#include <kde4_gpgme++/key.h>
 
 #include <cassert>
 

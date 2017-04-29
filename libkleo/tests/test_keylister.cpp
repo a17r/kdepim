@@ -34,8 +34,8 @@
 #include "kleo/keylistjob.h"
 #include "kleo/cryptobackendfactory.h"
 
-#include <gpgme++/keylistresult.h>
-#include <gpgme++/key.h>
+#include <kde4_gpgme++/keylistresult.h>
+#include <kde4_gpgme++/key.h>
 
 #include <kapplication.h>
 #include <kaboutdata.h>

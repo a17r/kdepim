@@ -138,7 +138,7 @@ using namespace KMime;
 #include "kleo/cryptobackend.h"
 #include "kleo/cryptobackendfactory.h"
 
-#include <gpgme++/error.h>
+#include <kde4_gpgme++/error.h>
 
 #include <QByteArray>
 #include <QApplication>

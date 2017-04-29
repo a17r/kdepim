@@ -41,8 +41,8 @@
 #include <kleo/cryptobackendfactory.h>
 #include <kleo/importjob.h>
 
-#include <gpgme++/global.h>
-#include <gpgme++/importresult.h>
+#include <kde4_gpgme++/global.h>
+#include <kde4_gpgme++/importresult.h>
 
 #include <KLocalizedString>
 #include <KConfigGroup>

@@ -86,8 +86,8 @@ namespace Kleo {
 #include <QEventLoop>
 #include <QThreadPool>
 
-#include <gpgme++/global.h>
-#include <gpgme++/error.h>
+#include <kde4_gpgme++/global.h>
+#include <kde4_gpgme++/error.h>
 
 #ifndef Q_MOC_RUN
 #include <boost/shared_ptr.hpp>
