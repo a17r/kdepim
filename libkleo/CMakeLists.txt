@@ -124,3 +124,61 @@ install ( FILES libkleopatrarc-win32.desktop DESTINATION ${CONFIG_INSTALL_DIR} R
 else ()
 install ( FILES libkleopatrarc.desktop DESTINATION ${CONFIG_INSTALL_DIR} RENAME libkleopatrarc )
 endif ()
+
+install( FILES
+    kleo/kleo_export.h
+    kleo/enum.h
+    kleo/oidmap.h
+    kleo/cryptobackend.h
+    kleo/cryptobackendfactory.h
+    kleo/cryptoconfig.h
+    kleo/dn.h
+    kleo/job.h
+    kleo/keylistjob.h
+    kleo/keygenerationjob.h
+    kleo/abstractimportjob.h
+    kleo/importjob.h
+    kleo/importfromkeyserverjob.h
+    kleo/exportjob.h
+    kleo/changeexpiryjob.h
+    kleo/changeownertrustjob.h
+    kleo/downloadjob.h
+    kleo/deletejob.h
+    kleo/encryptjob.h
+    kleo/decryptjob.h
+    kleo/signjob.h
+    kleo/specialjob.h
+    kleo/verifydetachedjob.h
+    kleo/verifyopaquejob.h
+    kleo/decryptverifyjob.h
+    kleo/signencryptjob.h
+    kleo/signkeyjob.h
+    kleo/adduseridjob.h
+    kleo/refreshkeysjob.h
+    kleo/multideletejob.h
+    kleo/hierarchicalkeylistjob.h
+    kleo/keyfilter.h
+    kleo/keyfiltermanager.h
+    kleo/changepasswdjob.h
+    kleo/checksumdefinition.h
+    kleo/exception.h
+    kleo/kconfigbasedkeyfilter.h
+    kleo/listallkeysjob.h
+    kleo/stl_util.h
+    DESTINATION ${INCLUDE_INSTALL_DIR}/kleo COMPONENT Devel)
+
+install ( FILES
+    ui/kdhorizontalline.h
+    ui/messagebox.h
+    ui/progressbar.h
+    ui/progressdialog.h
+    ui/keylistview.h
+    ui/keyselectiondialog.h
+    ui/keyrequester.h
+    ui/keyapprovaldialog.h
+    ui/dnattributeorderconfigwidget.h
+    ui/cryptoconfigmodule.h
+    ui/cryptoconfigdialog.h
+    ui/directoryserviceswidget.h
+    ui/filenamerequester.h
+    DESTINATION ${INCLUDE_INSTALL_DIR}/kleo/ui COMPONENT Devel)
