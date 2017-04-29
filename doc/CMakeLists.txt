@@ -28,9 +28,10 @@ endif()
 
 if(BUILD_kmail)
   add_subdirectory(kmail)
-  if(BUILD_korganizer)
-    add_subdirectory(korganizer)
-  endif()
+endif()
+
+if(BUILD_korganizer)
+  add_subdirectory(korganizer)
 endif()
 
 if(BUILD_knode)
