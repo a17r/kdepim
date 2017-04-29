@@ -60,8 +60,8 @@ set_target_properties( composereditorng PROPERTIES VERSION ${GENERIC_LIB_VERSION
 install(TARGETS composereditorng ${INSTALL_TARGETS_DEFAULT_ARGS} )
 install( FILES data/composereditorinitialhtml DESTINATION  ${DATA_INSTALL_DIR}/composereditor )
 
-#install( FILES
-#         composereditor_export.h
-#         composereditor.h
-#         DESTINATION ${INCLUDE_INSTALL_DIR}/composereditorng COMPONENT Devel )
+install( FILES
+         composereditor_export.h
+         composereditor.h
+         DESTINATION ${INCLUDE_INSTALL_DIR}/composereditorng COMPONENT Devel )
 
