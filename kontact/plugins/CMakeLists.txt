@@ -6,7 +6,7 @@ include_directories(
 )
 
 
-if(QGPGME_FOUND)
+if(KDE4_QGPGME_FOUND)
   if(BUILD_kmail)
     add_subdirectory(kmail)
   endif()

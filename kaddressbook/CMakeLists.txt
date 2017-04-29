@@ -28,8 +28,8 @@ endif()
 add_subdirectory(icons)
 add_subdirectory(printing)
 add_subdirectory(tests)
-if(QGPGME_FOUND)
-  add_definitions(-DQGPGME_FOUND)
+if(KDE4_QGPGME_FOUND)
+  add_definitions(-DKDE4_QGPGME_FOUND)
 endif()
 
 set(kaddressbook_sendmail_SRCS
@@ -166,8 +166,8 @@ add_subdirectory(printing/grantlee/autotests)
 add_subdirectory(gravatar/autotests)
 add_subdirectory(gravatar/tests)
 
-if(QGPGME_FOUND)
-  target_link_libraries(kaddressbookprivate ${QGPGME_LIBRARIES})
+if(KDE4_QGPGME_FOUND)
+  target_link_libraries(kaddressbookprivate ${KDE4_QGPGME_LIBRARIES})
 endif()
 
 if(PRISON_FOUND)
@@ -200,8 +200,8 @@ target_link_libraries(kaddressbook
   grantleetheme
 )
 
-if(QGPGME_FOUND)
-  target_link_libraries(kaddressbook ${QGPGME_LIBRARIES})
+if(KDE4_QGPGME_FOUND)
+  target_link_libraries(kaddressbook ${KDE4_QGPGME_LIBRARIES})
 endif()
 
 install(TARGETS kaddressbook ${INSTALL_TARGETS_DEFAULT_ARGS})

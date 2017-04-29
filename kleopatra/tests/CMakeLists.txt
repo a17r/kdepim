@@ -62,7 +62,7 @@ target_link_libraries(test_verify
   ${QT_QTCORE_LIBRARY}
   ${QT_QTGUI_LIBRARY}
   ${KDE4_KDECORE_LIBS}
-  ${QGPGME_LIBRARIES}
+  ${KDE4_QGPGME_LIBRARIES}
 )
 
 ########### next target ###############
@@ -100,13 +100,13 @@ if(USABLE_ASSUAN_FOUND)
   if(WIN32)
     target_link_libraries(test_uiserver
       ${ASSUAN_VANILLA_LIBRARIES}
-      ${QGPGME_LIBRARIES}
+      ${KDE4_QGPGME_LIBRARIES}
       ws2_32
     )
   else()
     target_link_libraries(test_uiserver
       ${ASSUAN_PTHREAD_LIBRARIES}
-      ${QGPGME_LIBRARIES}
+      ${KDE4_QGPGME_LIBRARIES}
   )
   endif()
 

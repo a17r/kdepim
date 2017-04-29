@@ -22,7 +22,7 @@ add_definitions(-DKDE_DEFAULT_DEBUG_AREA=5153)
 target_link_libraries(kwatchgnupg
   ${KDE4_KDEUI_LIBS}
   kleo
-  ${QGPGME_LIBRARIES}
+  ${KDE4_QGPGME_LIBRARIES}
 )
 
 install(TARGETS kwatchgnupg ${INSTALL_TARGETS_DEFAULT_ARGS})

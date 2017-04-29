@@ -25,7 +25,7 @@ target_link_libraries(akonadimailreader
   ${KDE4_KDEUI_LIBS}
   ${KDEPIMLIBS_AKONADI_KMIME_LIBS}
   ${KDEPIMLIBS_AKONADI_LIBS}
-  ${KDEPIMLIBS_QGPGME_LIBS}
+  ${KDEPIMLIBS_KDE4_QGPGME_LIBS}
   akonadi_next
   kdepim
   kleo

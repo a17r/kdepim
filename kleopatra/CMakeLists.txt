@@ -37,7 +37,7 @@ include_directories(
   ${CMAKE_SOURCE_DIR}/libkdepim
   ${CMAKE_SOURCE_DIR}/mobile/lib
   ${Boost_INCLUDE_DIR}
-  ${QGPGME_INCLUDES}
+  ${KDE4_QGPGME_INCLUDE_DIR}
   ${GPGME_INCLUDES}
 )
 
@@ -367,7 +367,7 @@ set_target_properties(kleopatra_bin PROPERTIES OUTPUT_NAME kleopatra)
 target_link_libraries(kleopatra_bin
   ${_kleopatra_extra_libs}
   kleo
-  ${QGPGME_LIBRARIES}
+  ${KDE4_QGPGME_LIBRARIES}
   ${KDE4_KDEUI_LIBS}
   ${KDEPIMLIBS_KMIME_LIBS}
   ${KDE4_KCMUTILS_LIBS}

@@ -153,8 +153,8 @@ endif()
 
 # If the KDEPIM_ONLY_KLEO option is true
 if(KDEPIM_ONLY_KLEO)
-  find_package(QGpgme)
-  set_package_properties(QGpgme PROPERTIES DESCRIPTION "The QGpgME library" URL "http://www.kde.org" TYPE REQUIRED PURPOSE "QGpgME is required to build Kleopatra.")
+  find_package(KDE4_QGpgme)
+  set_package_properties(KDE4_QGpgme PROPERTIES DESCRIPTION "The KDE4_QGpgME library" URL "http://www.kde.org" TYPE REQUIRED PURPOSE "KDE4_QGpgME is required to build Kleopatra.")
 
   add_definitions(${QT_DEFINITIONS} ${KDE4_DEFINITIONS} ${KDEPIM_DEFINITIONS})
   include_directories (${CMAKE_SOURCE_DIR} ${CMAKE_BINARY_DIR} ${KDE4_INCLUDES} ${KDEPIMLIBS_INCLUDE_DIRS} ${QT_QTDBUS_INCLUDE_DIR})
@@ -175,8 +175,8 @@ else()
   find_package(ZLIB)
   set_package_properties(ZLIB PROPERTIES DESCRIPTION "The Zlib compression library" URL "http://www.zlib.net" TYPE REQUIRED)
 
-  find_package(QGpgme)
-  set_package_properties(QGpgme PROPERTIES DESCRIPTION "The QGpgMe library" URL "http://www.kde.org" TYPE RECOMMENDED PURPOSE "QGpgME is required to build KMail, KOrganizer and Kleopatra")
+  find_package(KDE4_QGpgme)
+  set_package_properties(KDE4_QGpgme PROPERTIES DESCRIPTION "The KDE4_QGpgME library" URL "http://www.kde.org" TYPE RECOMMENDED PURPOSE "KDE4_QGpgME is required to build KMail, KOrganizer and Kleopatra")
 
   find_package(Grantlee 0.4.0 QUIET CONFIG)
   set_package_properties(Grantlee PROPERTIES DESCRIPTION "The Grantlee Template System" URL "http://www.gitorious.org/grantlee/pages/Home" TYPE REQUIRED PURPOSE "Grantlee is requires for kmail and templating, theming for KJots, KaddressBook, KNotes and MessageViewer(KMail)." )
@@ -253,13 +253,13 @@ else()
   add_subdirectory(messagelist)
   add_subdirectory(templateparser)
 
-  if(QGPGME_FOUND)
+  if(KDE4_QGPGME_FOUND)
     if(Boost_TOPOLOGICAL_SORT_DIR)
       macro_optional_add_subdirectory(kleopatra)
     endif()
   endif()
 
-  # The following components depend on QGpgME.
+  # The following components depend on KDE4_QGpgME.
   add_subdirectory(messageviewer)
   macro_optional_add_subdirectory(messagecomposer)
   add_subdirectory(pimcommon)

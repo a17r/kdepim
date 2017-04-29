@@ -41,7 +41,7 @@ macro( add_messagecomposer_cryptotest _source )
       ${QT_QTGUI_LIBRARY}
       ${QT_QTCORE_LIBRARY}
       ${KDE4_KDEUI_LIBS}
-      ${QGPGME_LIBRARIES}
+      ${KDE4_QGPGME_LIBRARIES}
       )
 endmacro()
 

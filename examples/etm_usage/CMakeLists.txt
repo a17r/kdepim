@@ -45,7 +45,7 @@ target_link_libraries(etm_usage
   ${KDEPIMLIBS_AKONADI_LIBS}
   ${KDEPIMLIBS_KABC_LIBS}
   ${KDEPIMLIBS_KMIME_LIBS}
-  ${KDEPIMLIBS_QGPGME_LIBSS}
+  ${KDEPIMLIBS_KDE4_QGPGME_LIBS}
   akonadi_next
   kdepim
   kleo

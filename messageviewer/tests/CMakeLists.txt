@@ -20,7 +20,7 @@ macro(add_messageviewer_unittest _source)
   target_link_libraries( ${_name}
     messageviewer
     kleo
-    ${QGPGME_LIBRARIES}
+    ${KDE4_QGPGME_LIBRARIES}
     ${QT_QTTEST_LIBRARY}
     ${QT_QTCORE_LIBRARY}
     ${QT_QTWEBKIT_LIBRARY}

@@ -49,7 +49,7 @@ target_link_libraries(templateparser
   kleo
   kpgp
   pimcommon
-  ${QGPGME_LIBRARIES}
+  ${KDE4_QGPGME_LIBRARIES}
   ${QT_QTWEBKIT_LIBRARY}
 )
 set_target_properties(templateparser PROPERTIES

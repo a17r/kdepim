@@ -18,7 +18,7 @@ macro(add_templateparser_unittest _source)
     kleo
     templateparser
     messageviewer
-    ${QGPGME_LIBRARIES}
+    ${KDE4_QGPGME_LIBRARIES}
     ${QT_QTTEST_LIBRARY}
     ${QT_QTCORE_LIBRARY}
     ${QT_QTWEBKIT_LIBRARY}

@@ -315,7 +315,7 @@ if (KDEPIM_BUILD_DESKTOP)
     ${KDEPIMLIBS_KRESOURCES_LIBS}
     ${KDE4_KCMUTILS_LIBS}
     kleo
-    ${QGPGME_LIBRARIES}
+    ${KDE4_QGPGME_LIBRARIES}
     ksieve
     ksieveui
     kpgp

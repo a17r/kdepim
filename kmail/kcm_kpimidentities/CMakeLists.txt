@@ -17,7 +17,7 @@ set(kcm_identities_srcs
 kde4_add_ui_files(kcm_identities_srcs ../ui/identitypage.ui)
 kde4_add_plugin(kcm_kpimidentities ${kcm_identities_srcs})
 target_link_libraries(kcm_kpimidentities
-  ${KDEPIMLIBS_GPGMEPP_LIBS}
+  ${KDEPIMLIBS_KDE4_GPGMEPP_LIBS}
   ${KDEPIMLIBS_AKONADI_LIBS}
   ${KDEPIMLIBS_KPIMIDENTITIES_LIBS}
   ${KDEPIMLIBS_MAILTRANSPORT_LIBS}

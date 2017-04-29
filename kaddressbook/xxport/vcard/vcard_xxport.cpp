@@ -26,12 +26,12 @@
 
 #include <kaddressbookgrantlee/widget/grantleecontactviewer.h>
 
-#ifdef QGPGME_FOUND
+#ifdef KDE4_QGPGME_FOUND
 #include <kde4_gpgme++/context.h>
 #include <kde4_gpgme++/data.h>
 #include <kde4_gpgme++/key.h>
 #include <kde4_qgpgme/dataprovider.h>
-#endif // QGPGME_FOUND
+#endif // KDE4_QGPGME_FOUND
 
 #include <KABC/VCardConverter>
 
@@ -409,7 +409,7 @@ KABC::Addressee::List VCardXXPort::filterContacts( const KABC::Addressee::List &
 
 void VCardXXPort::addKey( KABC::Addressee &addr, KABC::Key::Type type ) const
 {
-#ifdef QGPGME_FOUND
+#ifdef KDE4_QGPGME_FOUND
     const QString fingerprint = addr.custom( QLatin1String("KADDRESSBOOK"),
                                              ( type == KABC::Key::PGP ? QLatin1String("OPENPGPFP") : QLatin1String("SMIMEFP") ) );
     if ( fingerprint.isEmpty() ) {

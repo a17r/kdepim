@@ -21,6 +21,6 @@ kde4_add_app_icon(_kgpgconf_SRCS "${KDE4_ICON_DIR}/oxygen/*/apps/preferences-des
 
 kde4_add_executable(kgpgconf ${_kgpgconf_SRCS})
 
-target_link_libraries(kgpgconf ${QGPGME_LIBRARIES} ${KDE4_KDEUI_LIBS})
+target_link_libraries(kgpgconf ${KDE4_QGPGME_LIBRARIES} ${KDE4_KDEUI_LIBS})
 
 install(TARGETS kgpgconf ${INSTALL_TARGETS_DEFAULT_ARGS})
