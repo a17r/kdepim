@@ -347,7 +347,7 @@ namespace kdtools {
     template <typename O, typename I, typename P>
     O copy_if( const I & i, P p ) {
         O o;
-        copy_if( boost::begin( i ), boost::end( i ), std::back_inserter( o ), p );
+        kdtools::copy_if( boost::begin( i ), boost::end( i ), std::back_inserter( o ), p );
         return o;
     }
 
@@ -385,12 +385,12 @@ namespace kdtools {
 
     template <typename C>
     bool none_of( const C & c ) {
-        return none_of( boost::begin( c ), boost::end( c ) );
+        return kdtools::none_of( boost::begin( c ), boost::end( c ) );
     }
 
     template <typename C, typename P>
     bool none_of( const C & c, P p ) {
-        return none_of( boost::begin( c ), boost::end( c ), p );
+        return kdtools::none_of( boost::begin( c ), boost::end( c ), p );
     }
 
     template <typename C, typename B>
