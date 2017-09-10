@@ -47,6 +47,7 @@
 #include <kmimetypetrader.h>
 #include <kmime/kmime_dateformatter.h>
 #include <kcolordialog.h>
+#include <kfontchooser.h>
 #include <kfontdialog.h>
 #include <kfiledialog.h>
 #include <kscoringeditor.h>
@@ -821,7 +822,7 @@ void KNode::AppearanceWidget::slotFontItemActivated( QListWidgetItem *item )
   if ( item ) {
     FontListItem *fontItem = static_cast<FontListItem*>( item );
     QFont font = fontItem->font();
-    int result = KFontDialog::getFont(font,false,this);
+    int result = KFontDialog::getFont(font,KFontChooser::NoDisplayFlags,this);
 
     if (result == KFontDialog::Accepted)
       fontItem->setFont(font);
